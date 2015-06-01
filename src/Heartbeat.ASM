@@ -9,8 +9,8 @@ struc addrinfo {
    .ai_next rd 1
 }
 
-;void LoopHeartbeat (void* arglist)
-proc LoopHeartbeat arglist
+;void LoopHeartbeat
+proc LoopHeartbeat 
      local pathName rb 3000
      local recvBuffer rb 100
      local heartbeatSocket rd 1
